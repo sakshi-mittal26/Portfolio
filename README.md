@@ -7,8 +7,6 @@ Built with HTML, CSS and JavaScript.
 
 ## 🔗 Live site
 https://sakshi-mittal26.github.io/portfolio-site  
-*(After you enable Pages, this will go live. If your repo name differs, replace `portfolio-site` with the repo name.)*
-
 ---
 
 ## Projects (highlights)
