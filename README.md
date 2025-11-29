@@ -6,8 +6,8 @@ Built with HTML, CSS and JavaScript.
 ---
 
 ## 🔗 Live site
-https://sakshi-mittal26.github.io/portfolio-site  
----
+https://sakshi-mittal26.github.io/Portfolio
+--
 
 ## Projects (highlights)
 - **Calculator** — Responsive calculator (HTML/CSS/JS). Live: https://sakshi-mittal26.github.io/Calculator • Code: https://github.com/sakshi-mittal26/Calculator  
