@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakshi Ghanshyam Mittal - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #490791ff, #bb25fc);
+      color: #fff;
+      padding: 25px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0 15px;
+      font-size: 1rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      max-width: 1000px;
+      margin: 22px auto;
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 18px;
+      align-items: start;
+      padding: 0 20px;
+    }
+    .hero-left {
+      background: #fff;
+      border-radius: 10px;
+      padding: 22px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    }
+    .hero-right {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 18px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+      width: 100%;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    section {
+      padding: 25px;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2575fc;
+      border-left: 5px solid #6a11cb;
+      padding-left: 10px;
+      margin-top: 0;
+    }
+    ul { list-style-type: square; margin-left: 20px; }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .resume-btn:hover { background: linear-gradient(90deg, #2575fc, #6a11cb); }
+    .muted { color: #666; font-size: 0.95rem; }
+    .meta { margin-top: 12px; color: #444; }
+    .skills-grid { display: flex; gap: 12px; flex-wrap: wrap; }
+    .skill-pill { background: linear-gradient(90deg,#eef2ff,#f7f7ff); padding:8px 10px; border-radius:8px; color:#232; font-weight:600; font-size:0.95rem; }
+    .project-card { margin-bottom: 14px; border-left: 3px solid #6a11cb; padding-left: 10px; }
+    .cta-row { margin-top: 14px; }
+    .contact-row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+    .apply-btn { background: #2575fc; color:#fff; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:700; }
+    footer { text-align: center; padding: 15px; background: linear-gradient(90deg, #6a11cb, #2575fc); color: #fff; margin-top: 20px; }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; padding: 0 12px; }
+      nav { display:block; padding-bottom:6px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sakshi Ghanshyam Mittal</h1>
+    <p>Electronics & Computer Engineering • Frontend / Full-Stack Developer (Intern) • Pune</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero area -->
+  <div class="hero">
+    <div class="hero-left">
+      <h2>Hello — I'm Sakshi</h2>
+      <p class="muted">
+        I’m an Electronics & Computer Engineering student at PES Modern College of Engineering (expected 2027). I build responsive web apps using HTML, CSS, JavaScript and Python. I completed a web development internship at <strong>CodSoft (2025)</strong> and have hands-on projects (Weather App, Portfolio, Landing Page).
+      </p>
+
+      <div class="cta-row">
+        <a class="resume-btn" href="Sakshi Mittal Resume.pdf" download>📄 Download Resume</a>
+        <a class="apply-btn" href="#contact" style="margin-left:12px;">Apply / Contact</a>
+      </div>
+
+      <div style="margin-top:14px" class="contact-row">
+        <div class="muted">📍 Pune, India</div>
+        <div class="muted">✉️ <a href="mailto:sakshimittal2610@gmail.com">sakshimittal2610@gmail.com</a></div>
+        <div class="muted">💻 <a href="https://github.com/sakshi-mittal26" target="_blank">github.com/sakshi-mittal26</a></div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="card">
+        <!-- Optional: add assets/profile.jpg in your folder to show photo -->
+        <img src="assets/profile.jpg" alt="Sakshi profile photo" onerror="this.style.display='none'"/>
+        <h3 style="margin-top:12px; margin-bottom:6px;">Sakshi Ghanshyam Mittal</h3>
+        <div class="muted">B.E. — Electronics & Computer Engineering (2023–2027)</div>
+
+        <div style="margin-top:12px;">
+          <div class="skills-grid">
+            <div class="skill-pill">HTML</div>
+            <div class="skill-pill">CSS</div>
+            <div class="skill-pill">JavaScript</div>
+            <div class="skill-pill">Python</div>
+            <div class="skill-pill">SQL</div>
+            <div class="skill-pill">Streamlit</div>
+            <div class="skill-pill">Git</div>
+            <div class="skill-pill">React (learning)</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Enthusiastic developer and ECE student with practical experience building frontend interfaces, small backend APIs, and Python apps. I enjoy crafting clean UI, solving problems, and learning quickly on the job. I’m focused on internships that offer real development work and mentorship.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.E. Electronics & Computer Engineering</strong> — PES Modern College of Engineering, Pune (Expected 2027)</li>
+      <li><strong>HSC</strong> — Modern College of Arts, Commerce and Science, Pune (2023)</li>
+      <li><strong>SSC</strong> — St. Thomas Public School, Pune (2020)</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JavaScript (React basics)</li>
+      <li><strong>Backend / Data:</strong> Python, Streamlit, Flask (basics), SQL</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+      <li><strong>Other:</strong> Embedded Systems, Data Analytics, Problem Solving</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Demos</h2>
+
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p class="muted">Python + Streamlit app that fetches real-time weather data (temperature, humidity, conditions). Simple UI for city searches.</p>
+      <p><a href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p class="muted">Responsive portfolio built with HTML, CSS and JavaScript. Showcases projects, skills and contact details.</p>
+      <p><a href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <div class="project-card">
+      <h3>Landing Page UI</h3>
+      <p class="muted">Modern landing page design with hero section, services and contact form. Focus on responsive UX.</p>
+      <p><a href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a></p>
+    </div>
+
+    <p class="muted" style="margin-top:8px">(More projects — Movie Finder, Task Manager — will be added soon.)</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Intern — CodSoft (2025)</strong><br/>
+        Web development intern — built responsive frontend components (HTML/CSS/JS), collaborated using Git/GitHub, and delivered UI projects like Calculator, Landing Page and Portfolio.
+      </li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Generative AI</li>
+      <li>Cybersecurity Analyst (basic)</li>
+      <li>Data Visualization</li>
+      <li>Introduction to SQL</li>
+    </ul>
+  </section>
+
+ <section id="contact">
+  <h2>Contact & Apply</h2>
+  <p>If you're hiring interns for frontend or full-stack roles (onsite Pune or remote), I'd love to hear from you.</p>
+  <p>📧 <a href="mailto:sakshimittal2610@gmail.com">sakshimittal2610@gmail.com</a></p>
+  <p>📱 +91 91752 17700</p>
+  <p>💻 <a href="https://github.com/sakshi-mittal26" target="_blank">github.com/sakshi-mittal26</a> • 
+      <a href="https://www.linkedin.com/in/sakshi-mittal-b39387321/" target="_blank">LinkedIn</a>
+  </p>
+  <p style="margin-top:12px">
+    <a class="resume-btn" href="Sakshi Mittal Resume.pdf" download>📄 Download Resume</a>
+    <a class="apply-btn" href="mailto:sakshimittal2610@gmail.com?subject=Internship%20Opportunity%20-%20Frontend/Fullstack" style="margin-left:10px;">Email to Apply</a>
+  </p>
+</section>
+
+
+  <footer>
+    <p>© <span id="year">2025</span> Sakshi Ghanshyam Mittal </p>
+  </footer>
+
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
